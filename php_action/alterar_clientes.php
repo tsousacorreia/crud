@@ -13,6 +13,7 @@
 		$sexo = mysqli_escape_string($connection,$_POST['sexo']);
 		$registro = mysqli_escape_string($connection,$_POST['registro']);
 		$tutor = mysqli_escape_string($connection,$_POST['tutor']);
+		$idPet = mysqli_escape_string($connection,$_POST['idPet']);
 
 		$sql = "UPDATE tbPets SET nomePet = '$nome', racaPet = '$raca', corPet = '$cor', idadePet = '$idade', sexoPet = '$sexo', registroPet = '$registro', tutorPet = '$tutor'  WHERE idPet = '$idPet'";
 

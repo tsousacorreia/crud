@@ -6,7 +6,7 @@
 	<div class="row">
 		<div class="col s12 m6 push-m3">
 			
-			<h3 class="light">Novo Pet</h3>
+			<h3 class="light center-align">CADASTRAR NOVO PET</h3>
 			
 			<form action="php_action/criar_clientes.php" method="POST">
 				
